@@ -1,0 +1,57 @@
+._container{
+  width:1040px;
+  margin: 0 auto;
+  // border:solid;
+}
+h2{
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.email{
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.info{
+  margin: 50px 0px;
+  &__content{
+    border:1px solid #D6AB7E;
+    width:400px; 
+  }
+  &__container{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+  }
+  .logout{
+    color:#D18A39;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.items{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_basket{
+  margin:50px 0px;
+  &__container{
+    border-top: 1px solid #D6AB7E;
+    border-bottom: 1px solid #D6AB7E;
+  }
+  &__name{
+    margin:25px 0px;
+  }
+}

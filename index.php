@@ -14,9 +14,6 @@ if (isset($_GET['page']))
       require 'pages/login.php';
       break;
     case "registration":
-      // if(isset($_SESSION['user'])){
-      //   require 'pages/profile.php';
-      // }
       require 'pages/registration.php';
       break;
     case "profile":
